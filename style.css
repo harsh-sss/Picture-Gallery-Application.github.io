@@ -8,14 +8,18 @@
 body {
 	font-family: 'Lato', sans-serif;
 	background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(180,9,27,1) 35%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(180,9,27,1) 35%, rgba(0,212,255,1) 100%);
 	color: white;
 }
 
 input:focus {
 	outline: none;
 }
-
+.head{
+	background-color: azure;
+	color: black;
+	border-radius: 10px;
+}
 h1 {
 	text-align: center;
 	margin-top: 5rem;
@@ -42,16 +46,17 @@ form {
 	margin-bottom: 1rem;
 	max-width: 40rem;
 	font-size: 1rem;
+	border-radius: 10px;
 }
 
 #submit {
-	background-color: #ff6100;
+	background-color: pink;
 	border: none;
 	padding: 0.8rem 2.5rem;
 	text-transform: uppercase;
 	cursor: pointer;
 	font-weight: bold;
-	color: white;
+	color: black;
 }
 
 img {
